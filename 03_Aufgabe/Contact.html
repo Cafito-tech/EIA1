@@ -1,44 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="./style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-         body{
-            font-family: 'Times New Roman', Times, serif;
-           font-size: xx-large;
-           background: #326688 ;
-           background-image: url("./Daten/Hintergrundbild.jpg");
-           background-attachment: fixed;
-           background-position: right bottom;
-           
-           background-repeat: no-repeat;
-           
-        }   
-    </style>
+   
    
 </head>
 
 <body>
     <header>
-    <nav>
+    <div id="navi">
         <ul>
             <li> <a href="./index.html">Portfolio</a></li>
-            <li> <a href="./AboutMe.htm">About Me</a></li>
+            <li id="aktuell"> <a href="./AboutMe.htm">About Me</a></li>
             <li> <a href="./Contact.html">Contact</a></li>
         </ul>
-    </nav>
+    </div>
 </header>
 <main>
-    <p><b><u>Imprint</u></b></p>
-    <p><b> Address:</b> <br>
-        Viviana Caffo Alfaro<br>
-         Großhausberg 2 <br>
-          78120 Furtwangen </p>
 
-    <p> <b> E-Mail:</b> vivi.caffo@gmx.de</p>
-    
+<div class="input">
+    <form>
+        <p>
+            <label>Vorname</label>
+            <input type="text">
+        </p>
+        <p>
+            <label> Nachname</label>
+            <input type="text">
+        </p> 
+        <p>
+            <label>E-Mail *</label>
+            <input type="email" required>
+        </p>
+        <p>
+            <label>Nachricht *</label>
+            <textarea rows="4" required></textarea>
+
+        </p>    
+        <p>Mit Absenden der Nachricht bestätige ich den Datenschutz</p>
+        <p>
+            <button type="submit">Absenden</button>
+        </p>
+    </form>
+</div>
+
 </main>
     
 </body>
