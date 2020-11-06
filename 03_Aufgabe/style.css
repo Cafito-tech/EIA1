@@ -19,21 +19,27 @@ ul {
     color: firebrick;
 }
   
-  .text1 {
-    font-family: sans-serif;
-    font-weight: lighter;
-    text-align: bottom;
-    position: absolute;
-    color: black;
-    background-color: rgb(175, 26, 26);
+  .kreis {
+    background: firebrick;
+    border-radius: 0px 0px 400px 400px;
+    height: 300px;
     width: 600px;
-    height: 600px;
-    border-radius: 600px;
-    margin-right: 600px;
-    left: 400px;
-    top: -200px;
+    margin: -20px 0px 60px 230px;
+    text-align: center;
+    font-family: monospace;
+    font-size: medium;
     
     }
+
+.text1 {
+    position: relative;
+    font-size: xx-large;
+    padding: 30px 10px 10px 10px;
+    margin: -10px 7px -100px 7px;
+    text-align: center;
+    font-weight: bolder;
+
+}
 
    
 body {
@@ -44,7 +50,7 @@ body {
 
 .text2{
     margin-left: 295px;
-    margin-top: 600px;
+    margin-top: 300px;
     color: firebrick;
     font-size: xx-large;
    
