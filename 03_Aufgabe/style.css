@@ -3,6 +3,7 @@ ul {
 }
   
   li a{
+    font-family: sans-serif;
     float: right;
     display: block;
     width: 70px;
@@ -10,7 +11,7 @@ ul {
     background-color: black;
     color: floralwhite;
     border-radius: 3px;
-    margin-top: -15px;
+    margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -24,21 +25,30 @@ ul {
     border-radius: 0px 0px 400px 400px;
     height: 300px;
     width: 600px;
-    margin: -20px 0px 60px 230px;
+    margin: -20px 0px 300px 450px;
     text-align: center;
     font-family: monospace;
     font-size: medium;
     
     }
 
-.text1 {
+.text {
+    font-family: sans-serif;
     position: relative;
-    font-size: xx-large;
+    font-size: 20px;
     padding: 30px 10px 10px 10px;
     margin: -10px 7px -100px 7px;
     text-align: center;
     font-weight: bolder;
 
+}
+
+.text1{
+    margin-left: 350px;
+    margin-top: -200px;
+    color: firebrick;
+    font-size: xx-large;
+    font-family: sans-serif;
 }
 
    
@@ -49,8 +59,9 @@ body {
 
 
 .text2{
-    margin-left: 295px;
-    margin-top: 300px;
+    font-family: sans-serif;
+    margin-left: 350px;
+    margin-top: 100px;
     color: firebrick;
     font-size: xx-large;
    
@@ -59,7 +70,7 @@ body {
 
 .text3{
     margin-left: 295px;
-    margin-top: 100px;
+    margin-top: 600px;
     color: firebrick;
     font-size: xx-large;
    
@@ -72,7 +83,7 @@ body {
     align-items: center;
     display: flex;
     margin-top: 50px;
-    margin-right: 100px;
+    text-align: center;
 
 }
 .flex2{
@@ -81,10 +92,22 @@ body {
     align-items: center;
     display: flex;
     margin-top: 10px;
-    margin-right: 100px;
+    text-align: center;
 }
 
 
 /* Contact Seite */
 
+.text3 {
+    color: firebrick;
+    font-size: xx-large;
+    margin-top: -200px;
+    margin-left: 620px;
+}
 
+.text4 {
+    color: firebrick;
+    font-size: xx-large;
+    margin-top: -10px;
+    margin-left: 490px;
+}
