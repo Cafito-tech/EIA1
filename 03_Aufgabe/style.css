@@ -19,11 +19,12 @@ ul {
     color: firebrick;
 }
   
-  .text1{
+  .text1 {
     font-family: sans-serif;
     font-weight: lighter;
-    text-align: center;
+    text-align: bottom;
     position: absolute;
+    color: black;
     background-color: rgb(175, 26, 26);
     width: 600px;
     height: 600px;
@@ -34,8 +35,8 @@ ul {
     
     }
 
-    
- body {
+   
+body {
     background-image: url(./Daten/bg.png);
     
 }
