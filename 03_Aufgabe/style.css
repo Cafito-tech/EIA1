@@ -96,7 +96,8 @@ body {
 }
 
 
-/* Contact Seite */
+
+/* About Me*/
 
 .text3 {
     color: firebrick;
@@ -110,4 +111,11 @@ body {
     font-size: xx-large;
     margin-top: -10px;
     margin-left: 490px;
+}
+
+/* Contact */
+
+.input{
+    text-align: center;
+    font-family: sans-serif;
 }
