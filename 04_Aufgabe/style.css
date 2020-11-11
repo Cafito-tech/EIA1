@@ -1,0 +1,89 @@
+body{
+    background-image: url(./Daten/bg.png);
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 160px;
+    left: 460px;
+}
+
+.bild{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 100px;
+    left: 400px;
+}
+
+.bild2{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 380px;
+    left: 960px;
+}
+
+.Überschrift{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 180px;
+    left: 620px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: burlywood;
+}
+
+.text{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 300px;
+    left: 510px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: burlywood; 
+}
+
+.Inhalt {
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 340px;
+    left: 560px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: burlywood;
+}
+
+.Gruß{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 470px;
+    left: 660px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: burlywood;  
+}
