@@ -1,0 +1,83 @@
+body{
+    background-image: url(./Daten/bg.png);
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 160px;
+    left: 460px;
+}
+
+.h1{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 180px;
+    left: 520px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: gainsboro;
+}
+
+.Bild{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 320px;
+    left: 520px;
+}
+
+.Bild2{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 460px;
+    left: 620px;
+}
+
+.Bild3{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 380px;
+    left: 770px;
+}
+
+.Bild4{
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    margin: auto;
+    top: 380px;
+    left: 890px;
+}
+
+.Bild:hover{
+    background-image: url(./Daten/stern_hover.png);
+}
+
+.Bild2:hover{
+    background-image: url(./Daten/stern_hover.png);
+}
+
+.Bild3:hover{
+    background-image: url(./Daten/stern_hover.png);
+}
+
+.Bild4:hover{
+    background-image: url(./Daten/stern_hover.png);
+}
