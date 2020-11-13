@@ -12,6 +12,8 @@ body{
     left: 460px;
 }
 
+
+
 .input legend{
     display: flex;
     position: absolute;
@@ -21,15 +23,18 @@ body{
     margin-left: 20px;
 }
 
+
+
 .input{
     display: flex;
     position: absolute;
     color: bisque;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: 220px;
     margin-left: 500px;
     
 }
+
 
 
 .input form .form-control{
@@ -40,7 +45,7 @@ body{
     border-radius: 3px;
     margin-left: 5px;
     width: 100px;
-    height: 15px;
+    height: 20px;
     padding-inline-start: 5px;
     padding-right: 10px;
     
